@@ -1,0 +1,57 @@
+---
+name: "Meta Magnet - Api Service"
+description: "Power Your Applications with Intelligent Metadata"
+image: "meta-magnet.png"
+date: "20 March 2023"
+previewImage: "meta-magnet.gif"
+link: "https://meta-magnet.vercel.app"
+stack:
+  [
+    "NodeJS",
+    "ExpressJS",
+    "Supabase",
+    "RestAPI",
+    "NextJS",
+    "TailwindCSS",
+    "Vercel",
+  ]
+tag: "Product"
+githubLink: "https://github.com/abhidadhaniya23/meta-magnet-docs.git"
+---
+
+## Introduction
+
+Meta Magnet is a metadata API service that provides you with the metadata of any URL. It is a free and open-source service that can be used by anyone. It is built using NodeJS, ExpressJS, and [Supabase](https://supabase.com).
+
+## Features
+
+- Get metadata of any URL
+- Provide a server solution at affordable prices
+
+## How to use
+
+- Go to [Meta Magnet](https://meta-magnet.vercel.app) and enter the URL in the input field.
+- To use the API, You can read the [documentation](https://meta-magnet.vercel.app/documentation)
+
+## Purpose of this project
+
+- To provide an affordable solutions for developers who want to use metadata in their applications
+- Heroku was no longer providing free dynos for the project, so I decided to create an express.js server and host it on Vercel to test the performance of the server.
+
+## Challenges
+
+- The biggest challenge was to run a scheduler which would run every 24 hours to reset the limit of the API calls.
+- The second challenge was to host the server on Vercel, as it was my first time hosting a server on Vercel.
+- To create a middleware that would check the limit of the API calls as well as the API key is valid or not and the plan (free or pro) of the user.
+
+## Applied solutions
+
+- There's a package for scheduler in NodeJS called node-cron, which can be used to run a scheduler.
+- But the good news for me was Supabase has a [built-in cron scheduler](https://supabase.com/blog/postgres-as-a-cron-server) which can be used to run scheduler sql queries in their built in sql editor.
+- [This tool](https://crontab.guru/) is very helpful to create cron jobs scheduler time patterns.
+
+## What I learned
+
+- I learned how to host a server on Vercel.
+- I learned how to use Supabase.
+- I learned Cron scheduler to reset daily quota.
