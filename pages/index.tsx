@@ -61,7 +61,7 @@ const HeaderIntro = () => {
           className="lg:hidden block relative my-1 text-base lg:my-5 lg:text-2xl font-codeText text-cyanPrimary"
         >
           <Image
-            src="/Alogo.svg"
+            src="/Logo.svg"
             alt="Sudeep Ranjan Sahoo Portfolio"
             width={100}
             height={100}
