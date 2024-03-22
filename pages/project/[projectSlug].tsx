@@ -20,7 +20,7 @@ const ProjectSlug = (props: any) => {
   return (
     <>
       <Head>
-        <title>Project - Abhi Dadhaniya</title>
+        <title>Project - Sudeep Ranjan Sahoo</title>
       </Head>
       <Layout>
         <>

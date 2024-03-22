@@ -6,7 +6,7 @@ const skills = () => {
   return (
     <>
       <Head>
-        <title>Tech Stack - Abhi Dadhaniya</title>
+        <title>Tech Stack - SRS</title>
       </Head>
       <Layout>
         <Skill />

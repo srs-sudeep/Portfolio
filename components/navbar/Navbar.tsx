@@ -34,8 +34,8 @@ const Navbar = () => {
       link: "/timeline",
     },
     {
-      name: "Blogs",
-      link: "https://blogs.abhidadhaniya.com?ref=portfolio",
+      name: "Recogx",
+      link: "https://recogxinit.vercel.app/",
     },
     {
       name: "Contact",
@@ -62,7 +62,7 @@ const Navbar = () => {
       <header className="hidden fixed top-0 lg:flex flex-col items-center justify-center min-h-screen px-5 mx-auto duration-150 shadow-2xl lg:px-16 bg-darkBluePrimary/90 backdrop-blur-sm lg:bg-darkBluePrimary">
         <LogoImage />
         <NavbarLinks linksData={linksData} />
-        {/* <ResumeButton /> */}
+        <ResumeButton />
         <GithubStar />
       </header>
     </>
@@ -71,7 +71,7 @@ const Navbar = () => {
 
 const GithubStar = () => {
   return (
-    <a className="flex items-center gap-1 text-cyanPrimary/70 hover:!text-cyanPrimary mt-5 duration-200" href="https://github.com/abhidadhaniya23/abhi-portfolio" target="_blank" rel="noreferrer">
+    <a className="flex items-center gap-1 text-cyanPrimary/70 hover:!text-cyanPrimary mt-5 duration-200" href="https://github.com/srs-sudeep" target="_blank" rel="noreferrer">
       <FiStar />
       <span className="text-lightBluePrimary">GitHub</span>
       {/* <FiGithub /> */}
@@ -82,7 +82,7 @@ const GithubStar = () => {
 const LogoImage = () => {
   return (
     <Link href="/" className="mb-4 -mt-10">
-      <Image src="/Alogo.svg" width={90} height={90} alt="Abhi Dadhaniya" />
+      <Image src="/Logo.svg" width={90} height={90} alt="Sudeep Ranjan Sahoo" />
     </Link>
   );
 };

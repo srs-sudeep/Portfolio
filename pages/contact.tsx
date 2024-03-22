@@ -9,7 +9,7 @@ const contact = () => {
   return (
     <>
       <Head>
-        <title>Contact - Abhi Dadhaniya</title>
+        <title>Contact - SRS</title>
       </Head>
       {!isMobile ? (
         <>

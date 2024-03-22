@@ -6,7 +6,7 @@ const about = () => {
   return (
     <>
       <Head>
-        <title>About - Abhi Dadhaniya</title>
+        <title>About - SRS</title>
       </Head>
       <Layout>
         <About />

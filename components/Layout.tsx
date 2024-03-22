@@ -18,12 +18,11 @@ const Layout = ({ children }: { children: JSX.Element }) => {
         />
         <meta
           name="title"
-          content="Abhi Dadhaniya - Full Stack Web Developer"
+          content="Sudeep Ranjan Sahoo - Software Developer"
         />
         <meta
           name="description"
-          content="I'm a full stack web developer based in India. I help clients to
-          build beautiful animated and stunning websites from scratch."
+          content="I'm a software developer based in India.Turning caffenine into code and magic into reality"
         />
         <meta
           property="og:title"
@@ -35,18 +34,16 @@ const Layout = ({ children }: { children: JSX.Element }) => {
         />
         <meta
           property="og:description"
-          content="I'm a full stack web developer based in India. I help clients to
-          build beautiful animated and stunning websites from scratch."
+          content="I'm a full stack web developer based in India.Turning caffenine into code and magic into reality"
         />
         <meta property="og:url" content={`https://www.abhidadhaniya.com/`} />
         <meta
           itemProp="name"
-          content="Abhi Dadhaniya - Full Stack Web Developer"
+          content="Sudeep Ranjan Sahoo - Software Developer"
         />
         <meta
           itemProp="description"
-          content="I'm a full stack web developer based in India. I help clients to
-          build beautiful animated and stunning websites from scratch."
+          content="I'm a Software developer based in India. Turning caffenine into code and magic into reality"
         />
         <meta itemProp="image" content="https://www.abhidadhaniya.com/og.png" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -56,17 +53,16 @@ const Layout = ({ children }: { children: JSX.Element }) => {
         />
         <meta
           name="twitter:title"
-          content="Abhi Dadhaniya - Full Stack Web Developer"
+          content="Sudeep Ranjan Sahoo - Software Developer"
         />
         <meta
           name="twitter:description"
-          content="I'm a full stack web developer based in India. I help clients to
-          build beautiful animated and stunning websites from scratch."
+          content="I'm a full stack web developer based in India. Turning caffenine into code and magic into reality"
         />
-        <meta name="twitter:creator" content="@AbhiDadhaniya3" />
+        <meta name="twitter:creator" content="@SUDEEPRANJANSA1" />
         <meta
           name="keywords"
-          content="Abhi Dadhaniya, MERN Stack, Developer, Portfolio,stunning websites, websites from scratch, animated websites, freelancer"
+          content="Sudeep Ranjan Sahoo, MERN Stack, Developer, Portfolio,stunning websites, websites from scratch, animated websites, freelancer"
         />
         <meta name="robots" content="index, follow" />
         <meta name="theme-color" content="#071124" />

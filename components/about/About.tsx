@@ -64,12 +64,18 @@ const About = () => {
               exit="exit"
               className="my-2 leading-8"
             >
-              I help businesses to grow their online presence and increase their
-              sales by creating beautiful animated, responsive and fast
-              websites.
-              {/* I work at the intersection of design and development,
-              and I am passionate about creating websites that provide
-              intuitive, pixel-perfect user experiences. */}
+              I&#39;m Sudeep Ranjan Sahoo, currently pursuing my third year of
+              Bachelor&#39;s in Computer Science at IIT Bhilai. With a strong
+              foundation in web and app development, I&#39;ve immersed myself in
+              diverse projects across multiple domains. My expertise spans
+              various technologies including MERN stack, Angular, Next.js,
+              Django, Node.js, PHP, alongside proficiency in databases like
+              MongoDB, MySQL, GraphQL, and Firebase. Over the past two years,
+              I&#39;ve delved into app development using Flutter and React
+              Native, gaining valuable experience through my involvement with
+              various startups. My journey has equipped me with a versatile
+              skill set, enabling me to thrive in dynamic and challenging
+              environments.
             </motion.p>
             <div className="mt-8 lg:mt-5 text-left">
               <motion.p
@@ -89,7 +95,7 @@ const About = () => {
                 className="pl-4 mt-1 flex flex-row items-start"
               >
                 <i className="pt-2 mr-3 text-xs text-cyanPrimary fa-solid fa-diamond"></i>
-                Beautiful animated stunning websites with fast loading speed.
+                Proficient in web development using MERN stack, Angular, Next.js, Django, Node.js, and PHP.
               </motion.p>
               <motion.p
                 variants={animations.p2}
@@ -99,8 +105,7 @@ const About = () => {
                 className="pl-4 mt-1 flex flex-row items-start"
               >
                 <i className="pt-2 mr-3 text-xs text-cyanPrimary fa-solid fa-diamond"></i>
-                Full stack web apps with best user experience and server
-                interactivity.
+                Skilled in database management systems including MongoDB, MySQL, GraphQL, and Firebase.
               </motion.p>
               <motion.p
                 variants={animations.p3}
@@ -110,7 +115,7 @@ const About = () => {
                 className="pl-4 mt-1 flex flex-row items-start"
               >
                 <i className="pt-2 mr-3 text-xs text-cyanPrimary fa-solid fa-diamond"></i>
-                I create real world products that love to use.
+                Experienced in mobile app development with Flutter and React Native, having contributed to projects in diverse startup environments.
               </motion.p>
               <motion.p
                 variants={animations.p3}

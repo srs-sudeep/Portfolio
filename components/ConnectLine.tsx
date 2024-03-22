@@ -19,37 +19,37 @@ const SocialLine = () => {
   const socialIcons = [
     {
       label: "Instagram",
-      link: "https://www.instagram.com/_abhi_dadhaniya_/",
+      link: "https://www.instagram.com/srs_sudeep/",
       icon: <SiInstagram />,
     },
     {
       label: "Twitter",
-      link: "https://twitter.com/abhidadhaniya3",
+      link: "https://twitter.com/SUDEEPRANJANSA1",
       icon: <FiTwitter />,
     },
     {
       label: "Github",
-      link: "https://github.com/abhidadhaniya23",
+      link: "https://github.com/srs-sudeep",
       icon: <FiGithub />,
     },
     {
       label: "LinkedIn",
-      link: "https://www.linkedin.com/in/abhidadhaniya/",
+      link: "https://www.linkedin.com/in/sudeep-ranjan-sahoo-b82355232/",
       icon: <RiLinkedinLine />,
     },
     {
       label: "Telegram",
-      link: "https://t.me/Abhi_Dadhaniya",
+      link: "https://t.me/Su160403",
       icon: <TbBrandTelegram />,
     },
-    {
-      label: "Gumroad",
-      link: "https://abhidadhaniya.gumroad.com/",
-      icon: <TbBrandGumroad />,
-    },
+    // {
+    //   label: "Gumroad",
+    //   link: "https://abhidadhaniya.gumroad.com/",
+    //   icon: <TbBrandGumroad />,
+    // },
     {
       label: "Email",
-      link: "mailto:abhidadhaniya23@gmail.com",
+      link: "mailto:sudeep160403@gmail.com",
       icon: <FiMail className="sm:hidden block" />,
     },
   ];
@@ -100,11 +100,11 @@ const EmailLine = () => {
           initial="initial"
         >
           <a
-            href="mailto:abhidadhaniya23@gmail.com"
+            href="mailto:sudeep160403@gmail.com"
             className="duration-300 flex flex-row justify-center items-center text-lightBluePrimary/50 hover:text-cyanPrimary/90"
           >
             <FiMail className="mr-3 font-bold text-2xl" />{" "}
-            abhidadhaniya23@gmail.com
+            sudeep160403@gmail.com
           </a>
         </motion.div>
         <motion.span

@@ -86,7 +86,7 @@ const CircularProgressBar = ({ name, url, index }: any) => {
           width={100}
           height={100}
           src={`/icons/${url}.svg`}
-          alt="Abhi Dadhaniya"
+          alt="Sudeep Ranjan Sahoo"
         />
         <h2 className="text-xl text-center mt-1 font-codeText text-lightBluePrimary">
           {name}

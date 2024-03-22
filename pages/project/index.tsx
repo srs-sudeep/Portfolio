@@ -11,7 +11,7 @@ const Project = (props: any) => {
   return (
     <>
       <Head>
-        <title>Projects - Abhi Dadhaniya</title>
+        <title>Projects - SRS</title>
       </Head>
       <Layout>
         <ProjectsComponent projectsData={projectsData} />

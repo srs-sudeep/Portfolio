@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Abhi Dadhaniya</title>
+        <title>SRS</title>
       </Head>
       <SocialLine />
       <Layout>
@@ -62,7 +62,7 @@ const HeaderIntro = () => {
         >
           <Image
             src="/Alogo.svg"
-            alt="Abhi Dadhaniya Portfolio"
+            alt="Sudeep Ranjan Sahoo Portfolio"
             width={100}
             height={100}
           />
@@ -83,7 +83,7 @@ const HeaderIntro = () => {
           exit="exit"
           className="text-4xl font-bold lg:my-0 lg:text-6xl text-lightBluePrimary"
         >
-          Abhi Dadhaniya
+          Sudeep Ranjan Sahoo
         </motion.h1>
         <motion.h2
           variants={animations.tagLine}
@@ -92,7 +92,7 @@ const HeaderIntro = () => {
           exit="exit"
           className="my-3 text-5xl font-bold lg:my-5 lg:text-7xl text-lightBlueSecondary"
         >
-          I build things for web.
+          I build things for web and app.
         </motion.h2>
         <motion.p
           variants={animations.desc}

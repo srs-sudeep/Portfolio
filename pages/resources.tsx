@@ -6,7 +6,7 @@ const DevelopmentResources = () => {
   return (
     <>
       <Head>
-        <title>Resources - Abhi Dadhaniya</title>
+        <title>Resources - SRS</title>
       </Head>
       <Layout>
         <Resource />

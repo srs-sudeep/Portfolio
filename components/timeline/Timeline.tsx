@@ -5,32 +5,32 @@ import Card from "./Card";
 const Timeline = () => {
   const data = [
     {
-      title: "Designed some web pages",
-      subtitle: "2019 November",
+      title: "Designed some web pages using HTML and CSS",
+      subtitle: "2022 June",
       icon: "fa-solid fa-bezier-curve",
     },
     {
       title: "Learned JavaScript",
-      subtitle: "2020 August",
+      subtitle: "2022 August",
       icon: "fa-brands fa-square-js",
     },
     {
       title: "NodeJS & ExpressJS",
-      subtitle: "2021 June",
+      subtitle: "2022 September",
       icon: "fa-brands fa-node-js",
     },
     {
       title: "Learned MongoDB",
-      subtitle: "2021 July",
+      subtitle: "2022 October",
       icon: "fa-solid fa-database",
     },
     {
-      title: "Learned ReactJS",
-      subtitle: "2021 December",
+      title: "Learned ReactJS & Golang",
+      subtitle: "2022 December",
       icon: "fa-brands fa-react",
     },
     {
-      title: "Implemented ReactJS projects",
+      title: "Learned Flutter & worked for Foss Overflow",
       subtitle: "2022 Feb.",
       icon: "fa-brands fa-react",
       link: "/tech-stack",
@@ -103,7 +103,9 @@ const Timeline = () => {
   ];
   return (
     <>
-      <section className="py-10 sm:py-20">
+      <section className="psddm-greeter --test-mode --theme /usr/share/sddm/themes/delicious
+
+y-10 sm:py-20">
         <Heading heading={"Proof of Work"} />
         <div className="py-10 sm:py-20">
           {data.reverse().map((item, index) => (

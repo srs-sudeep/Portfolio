@@ -6,7 +6,7 @@ const timeline = () => {
   return (
     <>
       <Head>
-        <title>Proof of work - Abhi Dadhaniya</title>
+        <title>Proof of work - SRS</title>
       </Head>
       <Layout>
         <Timeline />
