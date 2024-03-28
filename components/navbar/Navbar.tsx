@@ -112,7 +112,7 @@ const NavbarLinks = ({ linksData }: any) => {
 
 const ResumeButton = () => {
   return (
-    <a href="https://rxresu.me/abhidadhaniya23/abhi-resume" target="_blank" rel="noreferrer" className="btn mt-5">
+    <a href="https://drive.google.com/file/d/1DUOgE-FGp0lAWegg4eIvqwZ9AcnYZKAL/view?usp=sharing" target="_blank" rel="noreferrer" className="btn mt-5">
       Resume
     </a>
   );
