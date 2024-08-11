@@ -12,6 +12,7 @@ import Figma from "../../public/icons/Figma.svg";
 import Aws from "../../public/icons/Aws.svg";
 import Googlecloud from "../../public/icons/Googlecloud.svg";
 import Linux from "../../public/icons/Linux.svg";
+import flask from "../../public/icons/flask.svg";
 const Skill = () => {
   const value = 60;
   const animations = {
@@ -104,7 +105,8 @@ const Skill = () => {
     },
     {
       name: "Flask",
-      url: "Flask",
+      url: "flask",
+      
     },
     {
       name: "PHP",

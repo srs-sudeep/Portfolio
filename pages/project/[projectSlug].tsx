@@ -12,11 +12,17 @@ import { motion } from "framer-motion";
 const ProjectSlug = (props: any) => {
   const project: projectDataTypes = props.project;
   const content = props.content;
+  const videoUrl = project.data.video;
   const animation = {
     hidden: { opacity: 0 },
     visible: { opacity: 1, transition: { duration: 0.8 } },
     exit: { opacity: 0 },
   };
+  const videoIdMatch = videoUrl?.match(/\/d\/([^\/]+)\//);
+  const embedUrl = videoIdMatch
+    ? `https://drive.google.com/file/d/${videoIdMatch[1]}/preview`
+    : null;
+  console.log(project.data.previewImage)
   return (
     <>
       <Head>
@@ -84,7 +90,20 @@ const ProjectSlug = (props: any) => {
                 </span>
               ))}
             </div>
-
+            {embedUrl && (
+              <div className="w-full mt-10">
+                <h2 className="text-2xl md:text-3xl font-semibold text-lightBluePrimary mb-4">
+                  Demo Video
+                </h2>
+                <iframe
+                  src={embedUrl}
+                  width="100%"
+                  height="480"
+                  allow="autoplay"
+                  className="rounded-lg shadow-lg"
+                />
+              </div>
+            )}
             <article className="mt-10 prose-base lg:prose-lg prose-li:text-lightBluePrimary/70 prose-p:text-lightBluePrimary/70  prose-p:font-normal prose-li:list-disc prose-li:marker:text-cyanPrimary prose-blockquote:rounded-lg prose-headings:text-lightBluePrimary prose-blockquote:px-5 prose-strong:text-lightBluePrimary/90 prose-strong:font-medium prose-code:!font-code prose-pre:!bg-black prose-pre:p-0 prose-pre:m-0 prose-blockquote:py-0.5 prose-blockquote:border prose-blockquote:border-solid prose-blockquote:border-lightBluePrimary/10 prose-blockquote:text-lightBluePrimary/70 mx-auto prose-headings:text-lightBluePrimary/70 prose-headings:font-semibold prose-a:no-underline prose-a:border-b prose-a:pb-0.5 prose-a:border-dashed prose-a:border-cyanPrimary/70 hover:prose-a:border-solid hover:prose-a:border-cyanPrimary prose-a:text-lightBluePrimary/90 hover:prose-a:text-cyanPrimary prose-a:mx-1 text-lightBluePrimary/50 prose-a:duration-300">
               <ReactMarkdown>{content}</ReactMarkdown>
             </article>

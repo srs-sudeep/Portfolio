@@ -18,4 +18,5 @@ export type ProjectData = {
   image: string;
   link: string;
   tag: string;
+  video: string;
 };
